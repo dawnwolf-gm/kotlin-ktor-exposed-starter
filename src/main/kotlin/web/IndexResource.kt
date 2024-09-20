@@ -12,4 +12,6 @@ fun Route.index() {
     get("/") {
         call.respondText(indexPage, ContentType.Text.Html)
     }
+
+    // Git Actions Test
 }

@@ -178,7 +178,7 @@ class WidgetResourceTest: ServerTest() {
             .contentType(ContentType.JSON)
             .bodyJson(widget)
             .When()
-            .post("/widgets")
+            .post("/widgets1")
                 .then()
                 .statusCode(201)
                 .extract().to()
